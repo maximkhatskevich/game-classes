@@ -206,6 +206,9 @@
 		B620E3561649070F00C9C709 /* SneakyJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E3531649070F00C9C709 /* SneakyJoystick.m */; };
 		B620E3571649070F00C9C709 /* SneakyJoystickSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E3551649070F00C9C709 /* SneakyJoystickSkinnedBase.m */; };
 		B620E3591649071B00C9C709 /* README in Resources */ = {isa = PBXBuildFile; fileRef = B620E3581649071B00C9C709 /* README */; };
+		B620E364164907E400C9C709 /* CCAnimate+SequenceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E35D164907E400C9C709 /* CCAnimate+SequenceLoader.m */; };
+		B620E365164907E400C9C709 /* CCAnimation+SequenceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E35F164907E400C9C709 /* CCAnimation+SequenceLoader.m */; };
+		B620E366164907E400C9C709 /* CCNode+GNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E362164907E400C9C709 /* CCNode+GNode.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -619,6 +622,13 @@
 		B620E3541649070F00C9C709 /* SneakyJoystickSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystickSkinnedBase.h; sourceTree = "<group>"; };
 		B620E3551649070F00C9C709 /* SneakyJoystickSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedBase.m; sourceTree = "<group>"; };
 		B620E3581649071B00C9C709 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		B620E35C164907E400C9C709 /* CCAnimate+SequenceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCAnimate+SequenceLoader.h"; sourceTree = "<group>"; };
+		B620E35D164907E400C9C709 /* CCAnimate+SequenceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCAnimate+SequenceLoader.m"; sourceTree = "<group>"; };
+		B620E35E164907E400C9C709 /* CCAnimation+SequenceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCAnimation+SequenceLoader.h"; sourceTree = "<group>"; };
+		B620E35F164907E400C9C709 /* CCAnimation+SequenceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CCAnimation+SequenceLoader.m"; sourceTree = "<group>"; };
+		B620E361164907E400C9C709 /* CCNode+GNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CCNode+GNode.h"; sourceTree = "<group>"; };
+		B620E362164907E400C9C709 /* CCNode+GNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "CCNode+GNode.mm"; sourceTree = "<group>"; };
+		B620E363164907E400C9C709 /* RayCast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RayCast.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1222,6 +1232,7 @@
 		B620E3031649044600C9C709 /* GClasses */ = {
 			isa = PBXGroup;
 			children = (
+				B620E35A164907E400C9C709 /* Helpers */,
 				B620E3041649044600C9C709 /* GButton.h */,
 				B620E3051649044600C9C709 /* GButton.mm */,
 				B620E3061649044600C9C709 /* GContact.h */,
@@ -1287,6 +1298,36 @@
 				B620E3551649070F00C9C709 /* SneakyJoystickSkinnedBase.m */,
 			);
 			path = Joystick;
+			sourceTree = "<group>";
+		};
+		B620E35A164907E400C9C709 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B620E35B164907E400C9C709 /* AnimSeqExt */,
+				B620E360164907E400C9C709 /* GNode */,
+				B620E363164907E400C9C709 /* RayCast.h */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B620E35B164907E400C9C709 /* AnimSeqExt */ = {
+			isa = PBXGroup;
+			children = (
+				B620E35C164907E400C9C709 /* CCAnimate+SequenceLoader.h */,
+				B620E35D164907E400C9C709 /* CCAnimate+SequenceLoader.m */,
+				B620E35E164907E400C9C709 /* CCAnimation+SequenceLoader.h */,
+				B620E35F164907E400C9C709 /* CCAnimation+SequenceLoader.m */,
+			);
+			path = AnimSeqExt;
+			sourceTree = "<group>";
+		};
+		B620E360164907E400C9C709 /* GNode */ = {
+			isa = PBXGroup;
+			children = (
+				B620E361164907E400C9C709 /* CCNode+GNode.h */,
+				B620E362164907E400C9C709 /* CCNode+GNode.mm */,
+			);
+			path = GNode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1539,6 +1580,9 @@
 				B620E3451649044600C9C709 /* GTransitionScene.mm in Sources */,
 				B620E3561649070F00C9C709 /* SneakyJoystick.m in Sources */,
 				B620E3571649070F00C9C709 /* SneakyJoystickSkinnedBase.m in Sources */,
+				B620E364164907E400C9C709 /* CCAnimate+SequenceLoader.m in Sources */,
+				B620E365164907E400C9C709 /* CCAnimation+SequenceLoader.m in Sources */,
+				B620E366164907E400C9C709 /* CCNode+GNode.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
