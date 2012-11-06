@@ -203,6 +203,9 @@
 		B620E3431649044600C9C709 /* GTileMapInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E32B1649044600C9C709 /* GTileMapInfo.mm */; };
 		B620E3441649044600C9C709 /* GTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E32D1649044600C9C709 /* GTimer.m */; };
 		B620E3451649044600C9C709 /* GTransitionScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E32F1649044600C9C709 /* GTransitionScene.mm */; };
+		B620E3561649070F00C9C709 /* SneakyJoystick.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E3531649070F00C9C709 /* SneakyJoystick.m */; };
+		B620E3571649070F00C9C709 /* SneakyJoystickSkinnedBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E3551649070F00C9C709 /* SneakyJoystickSkinnedBase.m */; };
+		B620E3591649071B00C9C709 /* README in Resources */ = {isa = PBXBuildFile; fileRef = B620E3581649071B00C9C709 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -611,6 +614,11 @@
 		B620E32D1649044600C9C709 /* GTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTimer.m; sourceTree = "<group>"; };
 		B620E32E1649044600C9C709 /* GTransitionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTransitionScene.h; sourceTree = "<group>"; };
 		B620E32F1649044600C9C709 /* GTransitionScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GTransitionScene.mm; sourceTree = "<group>"; };
+		B620E3521649070F00C9C709 /* SneakyJoystick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystick.h; sourceTree = "<group>"; };
+		B620E3531649070F00C9C709 /* SneakyJoystick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystick.m; sourceTree = "<group>"; };
+		B620E3541649070F00C9C709 /* SneakyJoystickSkinnedBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SneakyJoystickSkinnedBase.h; sourceTree = "<group>"; };
+		B620E3551649070F00C9C709 /* SneakyJoystickSkinnedBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SneakyJoystickSkinnedBase.m; sourceTree = "<group>"; };
+		B620E3581649071B00C9C709 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -636,6 +644,7 @@
 		B620E0C11649041200C9C709 = {
 			isa = PBXGroup;
 			children = (
+				B620E3581649071B00C9C709 /* README */,
 				B620E0E21649041200C9C709 /* Tst2Dgame */,
 				B620E0CF1649041200C9C709 /* Frameworks */,
 				B620E0CD1649041200C9C709 /* Products */,
@@ -710,6 +719,7 @@
 		B620E0FD1649041200C9C709 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				B620E3501649070F00C9C709 /* SneakyInput */,
 				B620E3031649044600C9C709 /* GClasses */,
 				B620E2141649041900C9C709 /* LICENSE_cocos2d.txt */,
 				B620E2231649041A00C9C709 /* LICENSE_CocosDenshion.txt */,
@@ -1260,6 +1270,25 @@
 			path = GClasses;
 			sourceTree = "<group>";
 		};
+		B620E3501649070F00C9C709 /* SneakyInput */ = {
+			isa = PBXGroup;
+			children = (
+				B620E3511649070F00C9C709 /* Joystick */,
+			);
+			path = SneakyInput;
+			sourceTree = "<group>";
+		};
+		B620E3511649070F00C9C709 /* Joystick */ = {
+			isa = PBXGroup;
+			children = (
+				B620E3521649070F00C9C709 /* SneakyJoystick.h */,
+				B620E3531649070F00C9C709 /* SneakyJoystick.m */,
+				B620E3541649070F00C9C709 /* SneakyJoystickSkinnedBase.h */,
+				B620E3551649070F00C9C709 /* SneakyJoystickSkinnedBase.m */,
+			);
+			path = Joystick;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1324,6 +1353,7 @@
 				B620E0FC1649041200C9C709 /* iTunesArtwork in Resources */,
 				B620E23A1649041A00C9C709 /* ChangeLog in Resources */,
 				B620E2FD1649041F00C9C709 /* blocks.png in Resources */,
+				B620E3591649071B00C9C709 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1507,6 +1537,8 @@
 				B620E3431649044600C9C709 /* GTileMapInfo.mm in Sources */,
 				B620E3441649044600C9C709 /* GTimer.m in Sources */,
 				B620E3451649044600C9C709 /* GTransitionScene.mm in Sources */,
+				B620E3561649070F00C9C709 /* SneakyJoystick.m in Sources */,
+				B620E3571649070F00C9C709 /* SneakyJoystickSkinnedBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
