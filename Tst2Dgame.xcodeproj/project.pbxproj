@@ -181,6 +181,28 @@
 		B620E2F81649041F00C9C709 /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E2F71649041F00C9C709 /* GLES-Render.mm */; };
 		B620E2FB1649041F00C9C709 /* PhysicsSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E2FA1649041F00C9C709 /* PhysicsSprite.mm */; };
 		B620E2FD1649041F00C9C709 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = B620E2FC1649041F00C9C709 /* blocks.png */; };
+		B620E3301649044600C9C709 /* GButton.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E3051649044600C9C709 /* GButton.mm */; };
+		B620E3311649044600C9C709 /* GContact.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E3071649044600C9C709 /* GContact.mm */; };
+		B620E3321649044600C9C709 /* GContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E3091649044600C9C709 /* GContactListener.mm */; };
+		B620E3331649044600C9C709 /* GDebugDrawLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E30B1649044600C9C709 /* GDebugDrawLayer.mm */; };
+		B620E3341649044600C9C709 /* GHUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E30D1649044600C9C709 /* GHUDLayer.m */; };
+		B620E3351649044600C9C709 /* GKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E30F1649044600C9C709 /* GKernel.mm */; };
+		B620E3361649044600C9C709 /* GLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E3111649044600C9C709 /* GLayer.mm */; };
+		B620E3371649044600C9C709 /* GLayerWithCamera.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E3131649044600C9C709 /* GLayerWithCamera.mm */; };
+		B620E3381649044600C9C709 /* GLevel.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E3151649044600C9C709 /* GLevel.mm */; };
+		B620E3391649044600C9C709 /* GObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E3171649044600C9C709 /* GObject.mm */; };
+		B620E33A1649044600C9C709 /* GPushButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E3191649044600C9C709 /* GPushButton.m */; };
+		B620E33B1649044600C9C709 /* GSensor.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E31B1649044600C9C709 /* GSensor.m */; };
+		B620E33C1649044600C9C709 /* GShapeCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E31D1649044600C9C709 /* GShapeCache.mm */; };
+		B620E33D1649044600C9C709 /* GSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E31F1649044600C9C709 /* GSprite.mm */; };
+		B620E33E1649044600C9C709 /* GSpriteParams.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E3211649044600C9C709 /* GSpriteParams.m */; };
+		B620E33F1649044600C9C709 /* GState.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E3231649044600C9C709 /* GState.m */; };
+		B620E3401649044600C9C709 /* GSwitcherButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E3251649044600C9C709 /* GSwitcherButton.m */; };
+		B620E3411649044600C9C709 /* GTileInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E3271649044600C9C709 /* GTileInfo.m */; };
+		B620E3421649044600C9C709 /* GTileMap.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E3291649044600C9C709 /* GTileMap.mm */; };
+		B620E3431649044600C9C709 /* GTileMapInfo.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E32B1649044600C9C709 /* GTileMapInfo.mm */; };
+		B620E3441649044600C9C709 /* GTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = B620E32D1649044600C9C709 /* GTimer.m */; };
+		B620E3451649044600C9C709 /* GTransitionScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = B620E32F1649044600C9C709 /* GTransitionScene.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -545,6 +567,50 @@
 		B620E2F91649041F00C9C709 /* PhysicsSprite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicsSprite.h; sourceTree = "<group>"; };
 		B620E2FA1649041F00C9C709 /* PhysicsSprite.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = PhysicsSprite.mm; sourceTree = "<group>"; };
 		B620E2FC1649041F00C9C709 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		B620E3041649044600C9C709 /* GButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GButton.h; sourceTree = "<group>"; };
+		B620E3051649044600C9C709 /* GButton.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GButton.mm; sourceTree = "<group>"; };
+		B620E3061649044600C9C709 /* GContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GContact.h; sourceTree = "<group>"; };
+		B620E3071649044600C9C709 /* GContact.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GContact.mm; sourceTree = "<group>"; };
+		B620E3081649044600C9C709 /* GContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GContactListener.h; sourceTree = "<group>"; };
+		B620E3091649044600C9C709 /* GContactListener.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GContactListener.mm; sourceTree = "<group>"; };
+		B620E30A1649044600C9C709 /* GDebugDrawLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDebugDrawLayer.h; sourceTree = "<group>"; };
+		B620E30B1649044600C9C709 /* GDebugDrawLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GDebugDrawLayer.mm; sourceTree = "<group>"; };
+		B620E30C1649044600C9C709 /* GHUDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUDLayer.h; sourceTree = "<group>"; };
+		B620E30D1649044600C9C709 /* GHUDLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUDLayer.m; sourceTree = "<group>"; };
+		B620E30E1649044600C9C709 /* GKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GKernel.h; sourceTree = "<group>"; };
+		B620E30F1649044600C9C709 /* GKernel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GKernel.mm; sourceTree = "<group>"; };
+		B620E3101649044600C9C709 /* GLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLayer.h; sourceTree = "<group>"; };
+		B620E3111649044600C9C709 /* GLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLayer.mm; sourceTree = "<group>"; };
+		B620E3121649044600C9C709 /* GLayerWithCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLayerWithCamera.h; sourceTree = "<group>"; };
+		B620E3131649044600C9C709 /* GLayerWithCamera.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLayerWithCamera.mm; sourceTree = "<group>"; };
+		B620E3141649044600C9C709 /* GLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLevel.h; sourceTree = "<group>"; };
+		B620E3151649044600C9C709 /* GLevel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLevel.mm; sourceTree = "<group>"; };
+		B620E3161649044600C9C709 /* GObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GObject.h; sourceTree = "<group>"; };
+		B620E3171649044600C9C709 /* GObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GObject.mm; sourceTree = "<group>"; };
+		B620E3181649044600C9C709 /* GPushButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPushButton.h; sourceTree = "<group>"; };
+		B620E3191649044600C9C709 /* GPushButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPushButton.m; sourceTree = "<group>"; };
+		B620E31A1649044600C9C709 /* GSensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSensor.h; sourceTree = "<group>"; };
+		B620E31B1649044600C9C709 /* GSensor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSensor.m; sourceTree = "<group>"; };
+		B620E31C1649044600C9C709 /* GShapeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GShapeCache.h; sourceTree = "<group>"; };
+		B620E31D1649044600C9C709 /* GShapeCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GShapeCache.mm; sourceTree = "<group>"; };
+		B620E31E1649044600C9C709 /* GSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSprite.h; sourceTree = "<group>"; };
+		B620E31F1649044600C9C709 /* GSprite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GSprite.mm; sourceTree = "<group>"; };
+		B620E3201649044600C9C709 /* GSpriteParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSpriteParams.h; sourceTree = "<group>"; };
+		B620E3211649044600C9C709 /* GSpriteParams.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSpriteParams.m; sourceTree = "<group>"; };
+		B620E3221649044600C9C709 /* GState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GState.h; sourceTree = "<group>"; };
+		B620E3231649044600C9C709 /* GState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GState.m; sourceTree = "<group>"; };
+		B620E3241649044600C9C709 /* GSwitcherButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSwitcherButton.h; sourceTree = "<group>"; };
+		B620E3251649044600C9C709 /* GSwitcherButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSwitcherButton.m; sourceTree = "<group>"; };
+		B620E3261649044600C9C709 /* GTileInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTileInfo.h; sourceTree = "<group>"; };
+		B620E3271649044600C9C709 /* GTileInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTileInfo.m; sourceTree = "<group>"; };
+		B620E3281649044600C9C709 /* GTileMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTileMap.h; sourceTree = "<group>"; };
+		B620E3291649044600C9C709 /* GTileMap.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GTileMap.mm; sourceTree = "<group>"; };
+		B620E32A1649044600C9C709 /* GTileMapInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTileMapInfo.h; sourceTree = "<group>"; };
+		B620E32B1649044600C9C709 /* GTileMapInfo.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GTileMapInfo.mm; sourceTree = "<group>"; };
+		B620E32C1649044600C9C709 /* GTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTimer.h; sourceTree = "<group>"; };
+		B620E32D1649044600C9C709 /* GTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTimer.m; sourceTree = "<group>"; };
+		B620E32E1649044600C9C709 /* GTransitionScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTransitionScene.h; sourceTree = "<group>"; };
+		B620E32F1649044600C9C709 /* GTransitionScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GTransitionScene.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -644,6 +710,7 @@
 		B620E0FD1649041200C9C709 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				B620E3031649044600C9C709 /* GClasses */,
 				B620E2141649041900C9C709 /* LICENSE_cocos2d.txt */,
 				B620E2231649041A00C9C709 /* LICENSE_CocosDenshion.txt */,
 				B620E2551649041B00C9C709 /* LICENSE_Kazmath.txt */,
@@ -1142,6 +1209,57 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B620E3031649044600C9C709 /* GClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B620E3041649044600C9C709 /* GButton.h */,
+				B620E3051649044600C9C709 /* GButton.mm */,
+				B620E3061649044600C9C709 /* GContact.h */,
+				B620E3071649044600C9C709 /* GContact.mm */,
+				B620E3081649044600C9C709 /* GContactListener.h */,
+				B620E3091649044600C9C709 /* GContactListener.mm */,
+				B620E30A1649044600C9C709 /* GDebugDrawLayer.h */,
+				B620E30B1649044600C9C709 /* GDebugDrawLayer.mm */,
+				B620E30C1649044600C9C709 /* GHUDLayer.h */,
+				B620E30D1649044600C9C709 /* GHUDLayer.m */,
+				B620E30E1649044600C9C709 /* GKernel.h */,
+				B620E30F1649044600C9C709 /* GKernel.mm */,
+				B620E3101649044600C9C709 /* GLayer.h */,
+				B620E3111649044600C9C709 /* GLayer.mm */,
+				B620E3121649044600C9C709 /* GLayerWithCamera.h */,
+				B620E3131649044600C9C709 /* GLayerWithCamera.mm */,
+				B620E3141649044600C9C709 /* GLevel.h */,
+				B620E3151649044600C9C709 /* GLevel.mm */,
+				B620E3161649044600C9C709 /* GObject.h */,
+				B620E3171649044600C9C709 /* GObject.mm */,
+				B620E3181649044600C9C709 /* GPushButton.h */,
+				B620E3191649044600C9C709 /* GPushButton.m */,
+				B620E31A1649044600C9C709 /* GSensor.h */,
+				B620E31B1649044600C9C709 /* GSensor.m */,
+				B620E31C1649044600C9C709 /* GShapeCache.h */,
+				B620E31D1649044600C9C709 /* GShapeCache.mm */,
+				B620E31E1649044600C9C709 /* GSprite.h */,
+				B620E31F1649044600C9C709 /* GSprite.mm */,
+				B620E3201649044600C9C709 /* GSpriteParams.h */,
+				B620E3211649044600C9C709 /* GSpriteParams.m */,
+				B620E3221649044600C9C709 /* GState.h */,
+				B620E3231649044600C9C709 /* GState.m */,
+				B620E3241649044600C9C709 /* GSwitcherButton.h */,
+				B620E3251649044600C9C709 /* GSwitcherButton.m */,
+				B620E3261649044600C9C709 /* GTileInfo.h */,
+				B620E3271649044600C9C709 /* GTileInfo.m */,
+				B620E3281649044600C9C709 /* GTileMap.h */,
+				B620E3291649044600C9C709 /* GTileMap.mm */,
+				B620E32A1649044600C9C709 /* GTileMapInfo.h */,
+				B620E32B1649044600C9C709 /* GTileMapInfo.mm */,
+				B620E32C1649044600C9C709 /* GTimer.h */,
+				B620E32D1649044600C9C709 /* GTimer.m */,
+				B620E32E1649044600C9C709 /* GTransitionScene.h */,
+				B620E32F1649044600C9C709 /* GTransitionScene.mm */,
+			);
+			path = GClasses;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1367,6 +1485,28 @@
 				B620E2F51649041E00C9C709 /* IntroLayer.mm in Sources */,
 				B620E2F81649041F00C9C709 /* GLES-Render.mm in Sources */,
 				B620E2FB1649041F00C9C709 /* PhysicsSprite.mm in Sources */,
+				B620E3301649044600C9C709 /* GButton.mm in Sources */,
+				B620E3311649044600C9C709 /* GContact.mm in Sources */,
+				B620E3321649044600C9C709 /* GContactListener.mm in Sources */,
+				B620E3331649044600C9C709 /* GDebugDrawLayer.mm in Sources */,
+				B620E3341649044600C9C709 /* GHUDLayer.m in Sources */,
+				B620E3351649044600C9C709 /* GKernel.mm in Sources */,
+				B620E3361649044600C9C709 /* GLayer.mm in Sources */,
+				B620E3371649044600C9C709 /* GLayerWithCamera.mm in Sources */,
+				B620E3381649044600C9C709 /* GLevel.mm in Sources */,
+				B620E3391649044600C9C709 /* GObject.mm in Sources */,
+				B620E33A1649044600C9C709 /* GPushButton.m in Sources */,
+				B620E33B1649044600C9C709 /* GSensor.m in Sources */,
+				B620E33C1649044600C9C709 /* GShapeCache.mm in Sources */,
+				B620E33D1649044600C9C709 /* GSprite.mm in Sources */,
+				B620E33E1649044600C9C709 /* GSpriteParams.m in Sources */,
+				B620E33F1649044600C9C709 /* GState.m in Sources */,
+				B620E3401649044600C9C709 /* GSwitcherButton.m in Sources */,
+				B620E3411649044600C9C709 /* GTileInfo.m in Sources */,
+				B620E3421649044600C9C709 /* GTileMap.mm in Sources */,
+				B620E3431649044600C9C709 /* GTileMapInfo.mm in Sources */,
+				B620E3441649044600C9C709 /* GTimer.m in Sources */,
+				B620E3451649044600C9C709 /* GTransitionScene.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
